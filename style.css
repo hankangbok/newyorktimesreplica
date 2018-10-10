@@ -19,20 +19,22 @@ footer {
 }
 /* header flex container */
 .flex-nav ul{
-  /* flex:1; */
-
+  border-bottom:1px solid;
+    /* flexstuff */
   display:flex;
   width:100vw;
+  align-items: center;
   text-align: center;
-}
 
-.flex-nav #nytlogo {
-  flex: 5;
 }
-
 /* header flex item */
 .flex-nav li{
+  /* border:5px solid red; */
   flex:1;
+
+}
+.flex-nav #nytlogo {
+  flex: 7;
 }
 
 /* footer flex container */
@@ -56,4 +58,8 @@ ul {
 
 #articlephoto {
   width: 70%;
+}
+
+@media all and (max-width:1000px){
+
 }
