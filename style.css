@@ -1,0 +1,50 @@
+
+/* makes the entire page flexed */
+.wrapeverything {
+  border:5px solid red;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  width: 100vw;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.content {
+  width:70%;
+}
+/* header flex container */
+.flex-nav ul{
+  /* flex:1; */
+
+  display:flex;
+  width:100vw;
+  text-align: center;
+}
+
+.flex-nav #nytlogo {
+  flex: 5;
+}
+
+/* header flex item */
+.flex-nav li{
+  flex:1;
+}
+
+/* footer flex container */
+footer ul {
+  display:flex;
+  width:100vw;
+  justify-content: center;
+}
+/* footer flex item */
+footer li {
+  flex:1;
+}
+
+
+/* just makes the unordered lists non-bulleted */
+ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
